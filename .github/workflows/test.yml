@@ -1,0 +1,19 @@
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: julia-actions/setup-julia@v1
+        with:
+          version: '1.9'
+      - name: Install Tests
+        run: |
+          julia  -e 'using Pkg; Pkg.add(PackageSpec(name="Test"))'
+          julia  -e 'using Test'
+      - uses: julia-actions/julia-buildpkg@v1
+          - uses: julia-actions/julia-runtest@v1
+          - uses: julia-actions/julia-processcoverage@v1
