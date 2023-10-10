@@ -6,5 +6,5 @@ module MyStatPackage
     export rse_tstat
     export rse_std
     export rse_tstat
-
+    export printOwner
 end # module MyStatPackage
