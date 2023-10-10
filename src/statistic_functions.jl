@@ -26,7 +26,7 @@ function rse_tstat(array; σ = rse_std(array))
 end
 
 function printOwner()
-    pritnln("vladdez")
+    println("vladdez")
 end
 
 
