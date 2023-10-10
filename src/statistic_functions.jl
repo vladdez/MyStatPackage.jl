@@ -19,7 +19,7 @@ function rse_std(array)
 end
 
 
-function rse_tstat(array; σ=rse_std(array))
+function rse_tstat(array; σ = rse_std(array))
     x = collect(array)
     return res = rse_mean(x) / (σ / sqrt(length(x)))
 
