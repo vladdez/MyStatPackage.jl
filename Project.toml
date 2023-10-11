@@ -1,7 +1,7 @@
 name = "MyStatPackage"
 uuid = "46a2a3bc-0612-419c-8229-658f52acadbd"
 authors = ["vladdez <dezem@bk.ru>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
