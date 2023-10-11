@@ -2,7 +2,7 @@
 
 julia_version = "1.9.2"
 manifest_format = "2.0"
-project_hash = "db9f5e57160060d1fcdba45bc7b8f1199a71d4c9"
+project_hash = "89e3a2d483bfd14f218e05cb9c07311e02008295"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -119,14 +119,6 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 version = "2022.10.11"
-
-[[deps.MyStatsPackage]]
-deps = ["ProgressMeter", "Test"]
-git-tree-sha1 = "1b36f0bbbbefb71d430df4cb4dff7b63a045d2c5"
-repo-rev = "master"
-repo-url = "https://github.com/sims1253/MyStatsPackage.jl.git"
-uuid = "ace640b8-8f24-43c5-b795-f7cc054afaac"
-version = "0.1.0"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
