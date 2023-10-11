@@ -25,6 +25,10 @@ function rse_tstat(array; σ = rse_std(array))
 
 end
 
+"""
+printOwner should just work
+"""
+
 function printOwner()
     println("vladdez")
 end
